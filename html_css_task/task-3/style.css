@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+}
+
+header {
+  height: 50px;
+  background-color: white;
+}
+.navbar {
+  margin: 20px;
+  padding: 5px;
+  color: green;
+  text-align: center;
+  font-weight: 900;
+}
+
+div > span {
+  margin: 30px;
+}
+
+div.main {
+  background-color: rgba(128, 128, 128, 0.3);
+}
+
+div > img {
+  width: 100%;
+}
+
+.text {
+  text-align: center;
+  margin: 10px 80px 5px;
+}
+
+button {
+  font-size: 20px;
+  background-color: rgb(14, 150, 127);
+  color: white;
+  padding: 20px;
+  border-radius: 5%;
+  margin-left: 570px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  width: 260px;
+}
+
+footer {
+  background-color: white;
+  width: auto;
+  height: 50px;
+}
+
+footer > p {
+  text-align: right;
+  margin: 10px;
+  padding: 10px;
+}

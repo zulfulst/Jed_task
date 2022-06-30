@@ -1,0 +1,21 @@
+h1 {
+    background-color: aqua;
+    text-align: center;
+}
+
+p {
+    background-color:  rgb(222, 184, 135);
+    text-align: justify ;
+    width: 200px;
+    height: 300px;
+}
+
+div>p {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    background-color: #006666;
+    background-image: url("./img/rose.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+}

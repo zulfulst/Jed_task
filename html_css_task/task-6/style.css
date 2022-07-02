@@ -1,0 +1,15 @@
+* {
+  margin: 5px;
+  padding: 5px;
+}
+p::selection {
+  background-color: red;
+}
+.sun {
+  background-color: green;
+  margin-top: 20px;
+}
+.sun::after {
+  content: "\2600";
+  color: yellow;
+}

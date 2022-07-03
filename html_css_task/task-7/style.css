@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: brown;
+}
+
+div {
+  position: absolute;
+  display: inline-block;
+  width: 400px;
+  height: 440px;
+  background-color: white;
+  border: 1 px solid black;
+  border-radius: 20px;
+  margin-top: 150px;
+  margin-left: 420px;
+  box-shadow: 2px 2px 4px rgb(82, 15, 15);
+}
+
+input {
+  display: block;
+  font-size: medium;
+  width: 360px;
+  height: 50px;
+  margin: 20px;
+  border: 1px solid rgb(161, 157, 157);
+}
+
+input::placeholder {
+  padding-left: 10px;
+  color: rgb(161, 157, 157);
+}
+
+input:hover {
+  border: 2px solid brown;
+}
+
+.submit {
+  color: white;
+  background-color: brown;
+  font-size: 25px;
+  height: 55px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: brown;
+  text-align: center;
+  font-size: 40px;
+}
+.email {
+  color: lightgray;
+  position: absolute;
+  left: 353px;
+  top: 215px;
+}
+
+.user {
+  color: lightgray;
+  position: absolute;
+  left: 353px;
+  top: 141px;
+}
+
+.pass {
+  color: lightgray;
+  position: absolute;
+  left: 353px;
+  top: 291px;
+}

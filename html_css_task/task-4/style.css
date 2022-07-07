@@ -12,7 +12,7 @@ body {
 }
 
 #bold {
-  border: 3px solid black;
+  border: 2px solid black;
 }
 
 img {
@@ -21,6 +21,13 @@ img {
 }
 
 .img-container:hover {
-  border: 2px solid lightgray;
-  text-shadow: 2px 2px 2px red;
+  border: 1px solid black;
+}
+
+h1 {
+  text-align: center;
+}
+
+#bold:hover {
+  border: 2px solid black;
 }

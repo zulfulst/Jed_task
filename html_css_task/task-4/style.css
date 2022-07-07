@@ -20,7 +20,7 @@ img {
   height: 300px;
 }
 
-.img-container:hover {
+.img-container:hover { 
   border: 1px solid black;
 }
 

@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(7, 100px);
+  grid-template-rows: repeat(5, 100px);
+  padding: 20px;
+  margin-top: 72px;
+  margin-left: 274px;
+  grid-template-areas:
+    "a a . . . . ."
+    ". . . b c c e"
+    "f f . b . . e"
+    "f f . . x x x"
+    "h h h h . . .";
+}
+
+.grid-container > div {
+  border: 1px solid black;
+}
+
+.item1 {
+  grid-area: a;
+  font-size: 19px;
+}
+
+.item9 {
+  grid-area: b;
+}
+
+p {
+  text-align: center;
+  position: relative;
+  width: max-content;
+}
+
+.item9 > p {
+  transform: rotate(-90deg);
+  top: 67px;
+  right: 48px;
+}
+
+.item10 {
+  grid-area: c;
+}
+
+.item10 > p {
+  top: 62px;
+  right: -34px;
+}
+
+.item11 {
+  grid-area: e;
+}
+
+.item11 > p {
+  transform: rotate(90deg);
+  top: 97px;
+  right: -20px;
+}
+
+.item12 {
+  grid-area: f;
+  background-color: rgb(230, 186, 43);
+  font-size: 14px;
+  padding: 0px 10px 0 5px;
+}
+
+.item18 {
+  grid-area: x;
+  float: left;
+  display: flex;
+}
+
+.div {
+  display: inline-block;
+  width: 50%;
+}
+
+.div01 {
+  display: inline-block;
+  width: 50%;
+}
+
+.item18 > .div > p {
+  top: -12px;
+  right: -4px;
+  font-size: 13px;
+}
+
+.item18 > .div01 > p {
+  top: 67px;
+  right: -39px;
+  font-size: 13px;
+}
+
+.item19 {
+  grid-area: h;
+  float: left;
+  display: flex;
+}
+
+.div02 {
+  display: inline-block;
+  width: 10%;
+  border-right: 2px solid black;
+  color: red;
+}
+
+.div03 {
+  display: inline-block;
+  width: 90%;
+}
+
+.item19 > .div02 > p {
+  transform: rotate(-90deg);
+  top: 24px;
+}
+
+.item21 {
+  background-color: rgb(115, 233, 115);
+}
